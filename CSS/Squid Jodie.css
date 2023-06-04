@@ -1,0 +1,193 @@
+body {
+	font-family: Modeseven;
+	background: #292929;
+	color: #CD94E0;
+}
+
+html {
+	border: solid 3px #F596FE;
+	height: fit-content;
+}
+
+@font-face {
+	font-family: 'Modeseven';
+	src: url('../Assets/Fonts/Modeseven.ttf');
+}
+
+/* Japanese Pixel Font */
+@font-face {
+	font-family: 'Madou';
+	src: url('../Assets/Fonts/Madou Futo Maru Gothic.ttf');
+}
+
+.japanese {
+	font-family: Madou;
+}
+
+.center {
+	text-align: center;
+}
+
+.white-text {
+	color: #EEEEEE;
+}
+
+.art-size {
+	max-height: 400px;
+	max-width: 400px;
+	height: 60%;
+	width: 60%;
+	border-radius: 5px;
+	transition: 1s ease-in-out;
+}
+
+.art-size:active {
+	height: 80%;
+	width: 80%;
+}
+
+.second-header {
+	font-size: 23px;
+}
+
+.justin-credit {
+	background: #FDEB03;
+	background: linear-gradient(to right, #FDEB03 0%, #01B0FF 50%, #FDEB03 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: 3s ease;
+}
+
+.justin-credit:hover {
+	background: #01B0FF;
+	background: linear-gradient(to right, #01B0FF 0%, #FDEB03 50%, #01B0FF 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.state {
+	text-decoration-line: underline;
+	text-decoration-color: white;
+	animation: state-line 3s infinite;
+}
+
+@keyframes state-line {
+	50% {
+		text-decoration-color: #D089F9;
+	}
+}
+
+.copyright {
+	user-select: none;
+}
+
+.copy-jira {
+	color: #FDE28F;
+}
+
+.copy-tao {
+	color: #A2D761;
+}
+
+.copy-ghost {
+	color: #017882;
+}
+
+br {
+	user-select: none;
+}
+
+.color-stats {
+	animation: color-stats 2s infinite;
+	user-select: none;
+}
+
+/* Color Change Offset */
+#a {
+	animation-delay: 0.5s;
+}
+
+#b {
+	animation-delay: 0.2s;
+}
+
+#c {
+	animation-delay: 0.8s;
+}
+
+#d {
+	animation-delay: 1s;
+}
+
+#e {
+	animation-delay: 1.3s;
+}
+
+#f {
+	animation-delay: 1.8s;
+}
+
+@keyframes color-stats {
+	25% {
+		color: #32F7F7;
+	}
+
+	75% {
+		color: #D089F9;
+	}
+
+	100% {
+		color: #EEEEEE;
+	}
+}
+
+.water-type {
+	color: #2196F3;
+	animation: type-ani 1.5s infinite;
+}
+
+.psychic-type {
+	color: #EC407A;
+	animation: type-ani 1.5s infinite;
+}
+
+.poison-type {
+	color: #AA47BC;
+	animation: type-ani 1.5s infinite;
+}
+
+.dark-type {
+	color: #5D4038;
+	animation: type-ani 1.5s infinite;
+}
+
+.normal-type {
+	color: #BFB97F;
+	animation: type-ani 1.5s infinite;
+}
+
+@keyframes type-ani {
+	50% {
+		color: #EEEEEE;
+	}
+
+	55% {
+		color: currentColor;
+	}
+}
+
+.move-info {
+	font-size: 12px;
+	color: #EEEEEE;
+	font-style: italic;
+}
+
+.sup-size {
+	font-size: 14px;
+}

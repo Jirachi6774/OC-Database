@@ -1,0 +1,214 @@
+body {
+	font-family: Modeseven;
+	background: #292929;
+	color: #CD94E0;
+	/* filter: blur(10px); */
+}
+
+html {
+	border: solid 3px #F9E579/* F596FE */;
+	height: fit-content;
+}
+
+@font-face {
+	font-family: 'Modeseven';
+	src: url('../Assets/Fonts/Modeseven.ttf');
+}
+
+/* Japanese Pixel Font */
+@font-face {
+	font-family: 'Madou';
+	src: url('../Assets/Fonts/Madou Futo Maru Gothic.ttf');
+}
+
+.japanese {
+	font-family: Madou;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	user-select: none;
+} 
+
+.center-content {
+	align-content: center;
+	justify-content: center;
+}
+
+.copyright {
+	user-select: none;
+}
+
+.copy-jira {
+	color: #FDE28F;
+}
+
+.boolerex-color {
+	color: #FFD0D0;
+}
+
+.white-text {
+	color: #EEEEEE;
+}
+
+br {
+	user-select: none;
+}
+
+.art-size {
+	max-height: 400px;
+	max-width: 400px;
+	height: auto;
+	width: auto;
+	border-radius: 5px;
+	transition: 1s ease-in-out;
+}
+ /*
+.art-size:active {
+	height: auto;
+	width: 80%;
+} */
+
+.cursor {
+	cursor: pointer;
+}
+
+.psychic-type {
+	color: #EC407A;
+	animation: type-ani 1.5s infinite;
+}
+
+.steel-type {
+	color: #B4B4CC;
+	animation: type-ani 1.5s infinite;
+}
+
+@keyframes type-ani {
+	50% {
+		color: #EEEEEE;
+	}
+
+	55% {
+		color: currentColor;
+	}
+}
+
+.move-info {
+	font-size: 12px;
+	color: #EEEEEE;
+	font-style: italic;
+}
+
+.Giga {
+	color: #F15454;
+}
+
+.Star {
+	color: #F9E579;
+}
+
+/* Worshipper Colors */
+.Foxxo {
+	color: #E4BC79;
+}
+
+.Proto {
+	color: #35FFFF;
+}
+
+.Imp {
+	color: #9B7760;
+}
+
+.Pancham {
+	color: #EEEEEE;
+}
+
+.anim-type {
+	animation: anim-type 15s infinite;
+	color: #F483BB;
+}
+
+@keyframes anim-type {
+ /* Normal Type */
+	5.88% {color: #BFB97F;}
+	
+	/* Fighting Type */
+	11.76% {color: #D32F2E;}
+	
+	/* Flying Type */
+	17.64% {color: #9E87E1;}
+	
+	/* Poison Type */
+	23.52% {color: #AA47BC;}
+	
+	/* Ground Type */
+	29.40% {color: #DFB352;}
+	
+	/* Rock Type */
+	35.28% {color: #BDA537;}
+	
+	/* Bug Type */
+	41.16% {color: #98B92E;}
+	
+	/* Ghost Type */
+	47.04% {color: #7556A4;}
+	
+	/* Steel Type */
+	52.92% {color: #B4B4CC;}
+	
+	/* Fire Type */
+	58.80% {color: #E86513;}
+	
+	/* Water Type */
+	64.68% {color: #2196F3;}
+	
+	/* Grass Type */
+	70.56% {color: #4CB050;}
+	
+	/* Electric Type */
+	76.44% {color: #FECD07;}
+	
+	/* Psychic Type */
+	82.32% {color: #EC407A;}
+	
+	/* Ice Type */
+	88.20% {color: #80DEEA;}
+	
+	/* Dragon Type */
+	94.08% {color: #673BB7;}
+	
+	/* Dark Type */
+	99.96% {color: #5D4038;}
+	
+	/* Psychic Type */
+	100% {color: #F483BB;}
+}
+
+/* Some Animation Delays */
+#a {
+	animation-delay: 0.5s;
+}
+
+#b {
+	animation-delay: 1.5s;
+}
+
+#c {
+	animation-delay: 1s;
+}
+
+#d {
+	animation-delay: 2s;
+}
+
+#e {
+	animation-delay: 0.8s;
+}
+
+#f {
+	animation-delay: 2.5s;
+}

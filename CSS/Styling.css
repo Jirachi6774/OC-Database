@@ -1,0 +1,290 @@
+body {
+	font-family: Modeseven;
+	background: #292929;
+	color: #CD94E0;
+	/* filter: blur(10px); */
+}
+
+html {
+	border: solid 3px #F596FE;
+	height: fit-content;
+}
+
+@font-face {
+	font-family: 'Modeseven';
+	src: url('../Assets/Fonts/Modeseven.ttf');
+}
+
+/* Japanese Pixel Font */
+@font-face {
+	font-family: 'Madou';
+	src: url('../Assets/Fonts/Madou Futo Maru Gothic.ttf');
+}
+
+.blur {
+	filter: blur(100px);
+}
+
+.japanese {
+	font-family: Madou;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	user-select: none;
+}
+
+.welcome {
+	font-size: 25px;
+	text-align: center;
+	user-select: none;
+}
+
+.extra-welcome {
+	font-size: 15px;
+	text-align: center;
+	animation: Blink 2s infinite;
+	user-select: none;
+}
+
+@keyframes Blink {
+	50% {
+		color: #FF624D;
+	}
+}
+
+.center-content {
+	align-content: center;
+	justify-content: center;
+}
+
+.toc {
+	margin-left: 20px;
+	font-size: 25px;
+	user-select: none;
+}
+
+.video {
+	animation: video-unblur 3s;
+}
+
+@keyframes video-unblur {
+	0% {
+		filter: blur(10px);
+	}
+
+	100% {
+		filter: blur(0px);
+	}
+}
+
+.legend {
+	margin-left: 20px;
+	font-size: 23px;
+	user-select: none;
+}
+
+.toc-list {
+	font-size: 20px";
+
+}
+
+/* OC Link Colors */
+.tracie-color {
+	color: #ECB3FF;
+	transition: 1.5s;
+	user-select: none;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.tracie-color:hover {
+	color: white;
+}
+
+.jodie-color {
+	color: #52499F;
+	transition: 1.5s;
+	user-select: none;
+}
+
+.jodie-color:hover {
+	color: white;
+}
+
+.starshine-color {
+	color: #FFEB66;
+	transition: 1.5s;
+	user-select: none;
+}
+
+.starshine-color:hover {
+	color: white;
+}
+
+.liquee-color {
+	color: #3DB5FE;
+	transition: 1.5s;
+	user-select: none;
+}
+
+.liquee-color:hover {
+	color: white;
+}
+
+.jirachi-color {
+	color: #F9E579;
+	transition: 1.5s;
+	user-select: none;
+}
+
+.jirachi-color:hover {
+	color: white;
+}
+
+.white-anim {
+	animation: White-Welcome 2s infinite;
+	animation-delay: 1s;
+}
+
+@keyframes White-Welcome {
+	50% {
+		color: white;
+	}
+}
+
+.official {
+	color: #54D67D;
+	animation: official-blink 0.5s infinite ease;
+}
+
+@keyframes official-blink {
+	50% {
+		color: white;
+	}
+}
+
+.not-official {
+	color: #FF624D;
+	animation: unofficial-blink 0.5s infinite ease;
+}
+
+@keyframes unofficial-blink {
+	50% {
+		color: white;
+	}
+}
+
+.copyright {
+	user-select: none;
+}
+
+.justin-credit {
+	background: #FDEB03;
+	background: linear-gradient(to right, #FDEB03 0%, #01B0FF 50%, #FDEB03 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: 3s ease;
+}
+
+.copy-jira {
+	color: #FDE28F;
+}
+
+.copy-tao {
+	color: #A2D761;
+}
+
+.copy-ghost {
+	color: #017882;
+}
+
+.copy-shibain {
+	color: darkgray;
+}
+
+.copy-sob {
+	color: #3DB5FE;
+}
+
+.copy-tsuko {
+	color: #FFF1F3;
+}
+
+.copy-intro {
+	color: #B1FF23;
+}
+
+.washu-color {
+	color: #6BCCFF;
+}
+
+.boolerex-color {
+	color: #FFD0D0;
+}
+
+.white-text {
+	color: #EEEEEE;
+}
+
+br {
+	user-select: none;
+}
+
+.unstable {
+	color: #51DBFF;
+	transition: 1.5s;
+}
+
+.unstable:hover {
+	color: black;
+	text-shadow: 0px 0px 5px white;
+}
+
+.collapsed {
+	color: black;
+	text-shadow: 0px 0px 3px white;
+	transition: 1.5s;
+	animation: collaspe-ani 2s infinite;
+}
+
+.collapsed:hover {
+	animation: hover-ani 0.5s infinite;
+	text-shadow: 0px 0px 6px white;
+	transition: 1.5s;
+}
+
+@keyframes collaspe-ani {
+	50% {
+		color: white;
+	}
+
+	50% {
+		text-shadow: 0px 0px 5px currentColor;
+	}
+}
+
+@keyframes hover-ani {
+	50% {
+		text-shadow: 0px 0px 4px #ECB3FF;
+	}
+
+	50% {
+		color: black;
+	}
+}
+
+.void {
+	font-size: 1px;
+	cursor: pointer;
+	align-content: center;
+	color: #000000;
+	user-select: none;
+	padding: 5px;
+}

@@ -1,0 +1,149 @@
+body {
+	font-family: Modeseven;
+	background: #292929;
+	color: #CD94E0;
+	/* filter: blur(10px); */
+}
+
+html {
+	border: solid 3px black/* F596FE */;
+	height: fit-content;
+	animation: border-ani 3s infinite;
+}
+
+@keyframes border-ani {
+	50% {border-color: white;}
+}
+
+@font-face {
+	font-family: 'Modeseven';
+	src: url('../Assets/Fonts/Modeseven.ttf');
+}
+
+/* Japanese Pixel Font */
+@font-face {
+	font-family: 'Madou';
+	src: url('../Assets/Fonts/Madou Futo Maru Gothic.ttf');
+}
+
+.blur {
+	filter: blur(100px);
+	/* used to blur the whole document if needed */
+}
+
+.japanese {
+	font-family: Madou;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	user-select: none;
+} 
+
+.center-content {
+	align-content: center;
+	justify-content: center;
+}
+
+.copyright {
+	user-select: none;
+}
+
+.white-text {
+	color: #EEEEEE;
+}
+
+br {
+	user-select: none;
+}
+
+.art-size {
+	max-height: 400px;
+	max-width: 400px;
+	height: 60%;
+	width: 60%;
+	border-radius: 5px;
+	transition: 1s ease-in-out;
+}
+
+.art-size:active {
+	height: 80%;
+	width: 80%;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.color-stats {
+	animation: color-stats 2s infinite;
+	user-select: none;
+}
+
+/* Color Change Offset */
+#a {
+	animation-delay: 0.5s;
+}
+
+#b {
+	animation-delay: 0.2s;
+}
+
+#c {
+	animation-delay: 0.8s;
+}
+
+#d {
+	animation-delay: 1s;
+}
+
+#e {
+	animation-delay: 1.3s;
+}
+
+#f {
+	animation-delay: 1.8s;
+}
+
+@keyframes color-stats {
+	25% {
+		color: #32F7F7;
+	}
+
+	75% {
+		color: #D089F9;
+	}
+
+	100% {
+		color: #EEEEEE;
+	}
+}
+
+.psychic-type {
+	color: #EC407A;
+	animation: type-ani 1.5s infinite;
+}
+
+.steel-type {
+	color: #B4B4CC;
+	animation: type-ani 1.5s infinite;
+}
+
+@keyframes type-ani {
+	50% {
+		color: #EEEEEE;
+	}
+
+	55% {
+		color: currentColor;
+	}
+}
+
+.move-info {
+	font-size: 12px;
+	color: #EEEEEE;
+	font-style: italic;
+}
