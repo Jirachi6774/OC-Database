@@ -3,14 +3,14 @@
 var video = document.getElementById('Video')
 //Lets set the attributes you want to build via this JS script
 //Lets build onPlay
-video.onplay = function(){
+video.onplay = function () {
     console.log('Video playing!')
 }
 //Lets build onCanPlay
-video.oncanplay = function(){
+video.oncanplay = function () {
     console.log('Video Available for Playing')
 }
 //Lets build onPause
-video.onpause = function(){
+video.onpause = function () {
     console.log('Video Stopped!')
 }

@@ -6,13 +6,17 @@ body {
 }
 
 html {
-	border: solid 3px black/* F596FE */;
+	border: solid 3px black
+		/* F596FE */
+	;
 	height: fit-content;
 	animation: border-ani 3s infinite;
 }
 
 @keyframes border-ani {
-	50% {border-color: white;}
+	50% {
+		border-color: white;
+	}
 }
 
 @font-face {
@@ -41,7 +45,7 @@ html {
 
 .title {
 	user-select: none;
-} 
+}
 
 .center-content {
 	align-content: center;
