@@ -147,6 +147,22 @@ html {
 	color: white;
 }
 
+.crystia-color {
+	color: #A3C8FF;
+}
+
+.crystia-color:hover {
+	color: white;
+}
+
+.flygon {
+	color: #AF6EEE;
+}
+
+.flygon:hover {
+	color: white;
+}
+
 .white-anim {
 	animation: White-Welcome 2s infinite;
 	animation-delay: 1s;
