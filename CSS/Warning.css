@@ -1,1 +1,107 @@
 /* Place styling for the HTML underneath this comment ➜ @Jirachi6774 */
+
+body {
+    font-family: Modeseven;
+    background: #292929;
+    color: #F15454;
+    user-select: none;
+    /* filter: blur(10px); */
+}
+
+html {
+    border: solid 3px #F15454;
+    height: fit-content;
+    padding-bottom: 550px;
+}
+
+@font-face {
+    font-family: 'Modeseven';
+    src: url('../Assets/Fonts/Modeseven.ttf');
+}
+
+/* Japanese Pixel Font */
+@font-face {
+    font-family: 'Madou';
+    src: url('../Assets/Fonts/Madou Futo Maru Gothic.ttf');
+}
+
+.main-header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.white {
+    color: #EEEEEE;
+}
+
+.red {
+    color: #F15454;
+}
+
+.japanese {
+    font-family: Madou;
+}
+
+.center {
+    text-align: center;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 5px;
+}
+
+.warning-text {
+    font-size: 22px;
+    text-shadow: 0px 0px 5px currentColor;
+}
+
+.flicker {
+    animation: warning 0.5s infinite;
+    color: #F15454;
+    text-shadow: 0px 0px 3px #F15454;
+}
+
+@keyframes warning {
+    50% {color: #EEEEEE; text-shadow: 0px 0px 3px #EEEEEE;}
+}
+
+.button {
+    user-select: none;
+    cursor: pointer;
+    color: #F15454;
+    text-shadow: 0px 0px 3px #F15454;
+}
+
+.boxes {
+    display: flex;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.center {
+    align-content: center;
+    justify-content: center;
+}
+
+.border {
+    border-radius: 5px;
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.border:hover {
+    border-radius: 5px;
+    border-color: #F15454;
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+    padding: 5px;
+}

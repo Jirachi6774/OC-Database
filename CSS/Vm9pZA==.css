@@ -2,6 +2,7 @@
 
 body {
   font-family: Modeseven;
+  font-size: 18px;
   background: #EEEEEE;
   color: #222222;
   animation: void-bg 1s infinite;
@@ -120,6 +121,7 @@ html {
   animation-duration: 100ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  font-size: 18px;
 }
 
 .shake-delay {
