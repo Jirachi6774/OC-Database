@@ -18,6 +18,10 @@ html {
   /* filter: blur(10px); */
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .void-img {
   filter: invert(100%);
   animation: void-image 1s infinite;
