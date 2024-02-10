@@ -1,1 +1,92 @@
-/* Place styling for the HTML underneath this comment ➜ @Jirachi6774 */
+body {
+    font-family: Modeseven;
+    background: #292929;
+    color: #CD94E0;
+}
+
+html {
+    border: solid 3px #F596FE;
+    height: fit-content;
+}
+
+@font-face {
+    font-family: 'Modeseven';
+    src: url('../Assets/Fonts/Modeseven.ttf');
+}
+
+/* Japanese Pixel Font */
+@font-face {
+    font-family: 'Madou';
+    src: url('../Assets/Fonts/Madou Futo Maru Gothic.ttf');
+}
+
+.japanese {
+    font-family: Madou;
+}
+
+.center {
+    text-align: center;
+}
+
+.white-text {
+    color: #EEEEEE;
+    text-decoration-line: none;
+}
+
+.art-size {
+    max-height: 400px;
+    max-width: 400px;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    transition: 1s ease-in-out;
+}
+
+/*
+.art-size:active {
+    height: 80%;
+    width: 80%;
+}
+*/
+
+.second-header {
+    font-size: 23px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.state {
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    animation: state-line 3s infinite;
+}
+
+.copyright {
+    user-select: none;
+}
+
+.copy-jira {
+    color: #FDE28F;
+}
+
+.jodie-color {
+    color: #52499F;
+    transition: 1.5s;
+    user-select: none;
+    text-decoration-line: none;
+}
+
+.jodie-color:hover {
+    color: white;
+}
+
+.copy-ghost {
+    color: #017882;
+    text-decoration-line: none;
+}
+
+br {
+    user-select: none;
+}
