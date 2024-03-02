@@ -1,0 +1,48 @@
+body {
+    font-family: Modeseven;
+    background: #292929;
+    color: #919290;
+    /* filter: blur(10px); */
+}
+
+html {
+    border: solid 5px #0E0E0E;
+    border-left: solid 5px #DEAE49;
+    border-right: solid 5px #85878D;
+    height: fit-content;
+}
+
+@font-face {
+    font-family: 'Modeseven';
+    src: url('../Assets/Fonts/Modeseven.ttf');
+}
+
+/* Japanese Pixel Font */
+@font-face {
+    font-family: 'Madou';
+    src: url('../Assets/Fonts/Madou Futo Maru Gothic.ttf');
+}
+
+.center {
+    text-align: center;
+}
+
+.white-text {
+    color: #EEEEEE;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.copyright {
+    user-select: none;
+}
+
+br {
+    user-select: none;
+}
+
+.second-header {
+    font-size: 23px;
+}

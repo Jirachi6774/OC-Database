@@ -149,18 +149,42 @@ html {
 
 .crystia-color {
 	color: #A3C8FF;
+	transition: 1.5s;
+	user-select: none;
 }
 
 .crystia-color:hover {
 	color: white;
 }
 
+.fizz-color {
+	color: #FAEBD1;
+	transition: 1.5s;
+	user-select: none;
+}
+
+.fizz-color:hover {
+	color: white;
+}
+
 .flygon {
 	color: #AF6EEE;
+	transition: 1.5s;
+	user-select: none;
 }
 
 .flygon:hover {
 	color: white;
+}
+
+.shirokumo-color {
+	color: #E1E1E1;
+	transition: 1.5s;
+	user-select: none;
+}
+
+.shirokumo-color:hover {
+	color: #494949;
 }
 
 .white-anim {
@@ -267,7 +291,7 @@ br {
 	color: black;
 	text-shadow: 0px 0px 3px white;
 	transition: 1.5s;
-	animation: collaspe-ani 2s infinite;
+	animation: collapse-ani 2s infinite;
 }
 
 .collapsed:hover {
@@ -276,7 +300,7 @@ br {
 	transition: 1.5s;
 }
 
-@keyframes collaspe-ani {
+@keyframes collapse-ani {
 	50% {
 		color: white;
 	}

@@ -1,0 +1,33 @@
+body {
+    font-family: Niko;
+    background: #292929;
+    color: #EEEEEE;
+}
+
+@font-face {
+    font-family: Milkshake;
+    src: url('../Assets/Fonts/Milkshake.ttf');
+}
+
+@font-face {
+    font-family: Niko;
+    src: url('../Assets/Fonts/Terminus\ OneShot.ttf');
+}
+
+.header {
+    font-size: 35px;
+    font-family: Milkshake;
+    text-align: center;
+    color: #FF6666;
+    animation: shake 2s infinite;
+    user-select: none;
+}
+
+@keyframes shake {
+    50% {color: #FFB2B2;}
+}
+
+.main-welcome {
+    text-align: center;
+    font-size: 20px;
+}

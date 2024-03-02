@@ -3,19 +3,59 @@
 body {
   font-family: Modeseven;
   font-size: 18px;
-  background: #EEEEEE;
-  color: #222222;
-  animation: void-bg 1s infinite;
   user-select: none;
   /* filter: blur(10px); */
 }
 
 html {
-  border: solid 3px #222222;
   height: fit-content;
-  animation: void-border 1s infinite;
   user-select: none;
   /* filter: blur(10px); */
+  border: solid 3px #222222;
+}
+
+.special-body {
+  background: #EEEEEE;
+  color: #222222;
+  animation: void-bg 1s infinite;
+}
+
+.special-html {
+  animation: void-border 1s infinite;
+}
+
+.effect-button {
+  border-style: solid;
+  border-width: 3px;
+  top: auto;
+  left: auto;
+  max-width: fit-content;
+  cursor: pointer;
+  color: white;
+  /* background-color: white; */
+  padding: 2px;
+  border-radius: 5px;
+  transition: 0.40s;
+}
+
+.tiny-text {
+  font-size: 10px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.button-on {
+  background-color: lightgreen;
+  box-shadow: 0px 0px 5px lightgreen;
+  border-color: hsl(120, 73%, 70%);
+}
+
+.button-off {
+  background-color: lightcoral;
+  box-shadow: 0px 0px 5px lightcoral;
+  border-color: hsl(0, 79%, 70%);
 }
 
 .cursor {

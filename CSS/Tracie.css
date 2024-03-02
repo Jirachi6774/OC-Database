@@ -128,7 +128,7 @@ br {
     user-select: none;
 }
 
-pre {
+.pre {
     background-color: #1c1c1c;
     border: #EEEEEE solid 3px;
     border-radius: 5px;
